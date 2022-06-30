@@ -10,6 +10,7 @@
             display: flex;
             border: solid 1px black;
             max-width: 500px;
+            height: 200px;
 
         }
 
@@ -37,6 +38,10 @@
 
         .rowReverse-wrapReverse{
             flex-flow: row-reverse wrap-reverse;
+        }
+
+        .column-wrap{
+            flex-flow: column wrap;
         }
     </style>
 </head>
@@ -83,6 +88,16 @@
 
     <h2>Row-Reverse Wrap-Reverse</h2>
     <div class="flex-container rowReverse-wrapReverse">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+
+    <h2>Column Wrap</h2>
+    <div class="flex-container column-wrap">
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>

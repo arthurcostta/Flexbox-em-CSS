@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos do Align Content</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            flex-wrap: wrap;
+            height: 450px;
+            max-width: 300px;
+        }
+
+        .item{
+            background-color: blueviolet;
+            color: white;
+            padding: 0 5px;
+            flex: 1;
+            text-align: center;
+            border: 2px solid black;
+            margin: 5px;
+        }
+
+        .font{
+            color: red;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-between{
+            align-content: space-between;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Fundamentos do Align Content</h1>
+
+    <h2 class="font">Center</h2>
+    <section class="container center">
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisidistinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur  distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consecteture distinctio at aliquam nam.</div>
+    </section>
+
+    <h2 class="font">Stretch</h2>
+    <section class="container stretch">
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisidistinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur  distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consecteture distinctio at aliquam nam.</div>
+    </section>
+    
+    <h2 class="font">Flex-Start</h2>
+    <section class="container flex-start">
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisidistinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur  distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consecteture distinctio at aliquam nam.</div>
+    </section>
+
+    <h2 class="font">Flex-End</h2>
+    <section class="container flex-end">
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisidistinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur  distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur distinctio at aliquam nam.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consecteture distinctio at aliquam nam.</div>
+    </section>
+
+    <h2 class="font">Space-Between</h2>
+    <section class="container space-between">
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consecteture</div>
+    </section>
+
+    <h2 class="font">Space-Around</h2>
+    <section class="container space-around">
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur</div>
+        <div class="item">Lorem, ipsum dolor sit amet consecteture</div>
+    </section>
+    
+</body>
+</html>
